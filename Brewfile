@@ -33,6 +33,8 @@ brew 'redis'
 brew 'yarn'
 
 # Apps
+# 'brew search --casks slack'
+# 'brew info slack'
 cask 'aerial'
 cask 'alfred'
 cask 'bartender'
@@ -53,13 +55,24 @@ cask 'slack'
 cask 'sublime-text'
 cask 'tableplus'
 cask 'telegram-desktop'
-cask 'tor-browser'
-cask 'transmission'
-cask 'transmit'
+# cask 'tor-browser'
+# cask 'transmission'
+# cask 'transmit'
 cask 'vagrant'
 cask 'virtualbox' # Might need to allow access in Security settings
 cask 'virtualbox-extension-pack'
 cask 'vlc'
+cask 'nagstamon'
+cask 'pibakery'
+cask 'balenaetcher'
+cask 'tunnelblick'
+cask 'sdformatter'
+cask 'keepassxc'
+cask 'zeplin'
+cask 'zoomus'
+cask 'anydesk'
+cask 'jetbrains-toolbox'
+cask 'homebrew/cask-drivers/synology-drive'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -78,14 +91,23 @@ cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
-# Mac App Store
-mas '1Password', id: 1333542190
-mas 'Byword', id: 420212497
+# Mac App Store (mas search <app>) > 'mas search telegram'
+# mas '1Password', id: 1333542190
+# mas 'Byword', id: 420212497
 mas 'Giphy Capture', id: 668208984
 mas 'Keynote', id: 409183694
-mas 'Sip', id: 507257563
+# mas 'Sip', id: 507257563
 mas 'Spark', id: 1176895641
 mas 'The Unarchiver', id: 425424353
-mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
-mas 'WhatsApp', id: 1147396723 
+# mas 'Things', id: 904280696
+# mas 'Tweetbot', id: 1384080005
+mas 'WhatsApp', id: 1147396723
+mas 'Telegram', id: 747648890
+mas 'iLightShow for Philips Hue', id: 1217138942
+mas 'Xcode', id: 497799835
+mas 'Cyberduck', id: 409222199
+mas 'Moom', id: 419330170
+
+# Not (yet) installable packages
+# dockerstation
+# binance
