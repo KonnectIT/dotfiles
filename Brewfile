@@ -35,6 +35,7 @@ brew 'yarn'
 # Apps
 # 'brew search --casks slack'
 # 'brew info slack'
+# 'brew cask install slack'
 cask 'aerial'
 cask 'alfred'
 cask 'bartender'
@@ -71,6 +72,7 @@ cask 'keepassxc'
 cask 'zeplin'
 cask 'zoomus'
 cask 'anydesk'
+cask 'spectacle'
 cask 'jetbrains-toolbox'
 cask 'homebrew/cask-drivers/synology-drive'
 
@@ -106,7 +108,8 @@ mas 'Telegram', id: 747648890
 mas 'iLightShow for Philips Hue', id: 1217138942
 mas 'Xcode', id: 497799835
 mas 'Cyberduck', id: 409222199
-mas 'Moom', id: 419330170
+# moom replaced by 'Spectacle'
+# mas 'Moom', id: 419330170
 
 # Not (yet) installable packages
 # dockerstation
