@@ -107,7 +107,8 @@ mas 'The Unarchiver', id: 425424353
 mas 'WhatsApp', id: 1147396723
 mas 'Telegram', id: 747648890
 mas 'iLightShow for Philips Hue', id: 1217138942
-mas 'Xcode', id: 497799835
+# Xcode has to be installed before using the install procedure
+# mas 'Xcode', id: 497799835
 mas 'Cyberduck', id: 409222199
 # moom replaced by 'Spectacle'
 # mas 'Moom', id: 419330170
