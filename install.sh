@@ -36,8 +36,12 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
 # Install PowerLine fonts
-git clone https://github.com/powerline/fonts $HOME/powerline_fonts
-cd $HOME/powerline_fonts && ./install.sh && .. && rm -rf powerline_fonts
+git clone https://github.com/powerline/fonts powerline_fonts
+./powerline_fonts/install.sh && rm -rf powerline_fonts
+
+# Install custom .zsh plugins
+# git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.dotfiles/plugins/zsh-autosuggestions
 
 # Set macOS preferences
 # We will run this last because this will reload the shell

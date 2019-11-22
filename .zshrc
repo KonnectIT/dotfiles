@@ -85,6 +85,7 @@ plugins=(
   laravel5
   osx
   vagrant
+  zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
