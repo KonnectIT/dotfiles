@@ -40,6 +40,7 @@ brew 'yarn'
 cask 'aerial'
 cask 'alfred'
 # cask 'caffeine'
+cask 'dropbox'
 cask 'discord'
 cask 'docker'
 cask 'firefox'
@@ -55,7 +56,7 @@ cask 'skype'
 cask 'slack'
 cask 'sublime-text'
 cask 'tableplus'
-cask 'telegram-desktop'
+# cask 'telegram-desktop'
 # cask 'tor-browser'
 # cask 'transmission'
 # cask 'transmit'
@@ -74,7 +75,7 @@ cask 'zoomus'
 cask 'anydesk'
 cask 'spectacle'
 cask 'jetbrains-toolbox'
-cask 'synology-drive'
+cask 'homebrew/cask-drivers/synology-drive'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -97,18 +98,18 @@ cask 'font-source-serif-pro'
 # mas '1Password', id: 1333542190
 # mas 'Byword', id: 420212497
 mas 'Giphy Capture', id: 668208984
-mas 'Keynote', id: 409183694
+# mas 'Keynote', id: 409183694
 # mas 'Sip', id: 507257563
 mas 'Spark', id: 1176895641
 mas 'The Unarchiver', id: 425424353
 # mas 'Things', id: 904280696
 # mas 'Tweetbot', id: 1384080005
 mas 'WhatsApp', id: 1147396723
-mas 'Telegram', id: 747648890
+# mas 'Telegram', id: 747648890
 # mas 'iLightShow for Philips Hue', id: 1217138942
 # Xcode has to be installed before using the install procedure
 # mas 'Xcode', id: 497799835
-mas 'Cyberduck', id: 409222199
+# mas 'Cyberduck', id: 409222199
 # moom replaced by 'Spectacle'
 # mas 'Moom', id: 419330170
 
