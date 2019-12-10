@@ -17,7 +17,7 @@ alias code="cd $HOME/code"
 # alias lara="sites && cd laravel/"
 
 # Laravel
-alias a="php artisan"
+alias pa="php artisan"
 alias ams="php artisan migrate:fresh --seed"
 
 # PHP
