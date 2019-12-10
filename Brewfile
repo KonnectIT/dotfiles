@@ -39,7 +39,7 @@ brew 'yarn'
 # 'brew cask install slack'
 cask 'aerial'
 cask 'alfred'
-cask 'caffeine'
+# cask 'caffeine'
 cask 'discord'
 cask 'docker'
 cask 'firefox'
@@ -105,7 +105,7 @@ mas 'The Unarchiver', id: 425424353
 # mas 'Tweetbot', id: 1384080005
 mas 'WhatsApp', id: 1147396723
 mas 'Telegram', id: 747648890
-mas 'iLightShow for Philips Hue', id: 1217138942
+# mas 'iLightShow for Philips Hue', id: 1217138942
 # Xcode has to be installed before using the install procedure
 # mas 'Xcode', id: 497799835
 mas 'Cyberduck', id: 409222199
