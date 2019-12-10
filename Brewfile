@@ -74,7 +74,7 @@ cask 'zoomus'
 cask 'anydesk'
 cask 'spectacle'
 cask 'jetbrains-toolbox'
-cask 'homebrew/cask-drivers/synology-drive'
+cask 'synology-drive'
 
 # Quicklook
 cask 'qlcolorcode'
