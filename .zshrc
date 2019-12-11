@@ -90,6 +90,8 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+source $ZSH_CUSTOM/.my_custom_commands.sh
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
