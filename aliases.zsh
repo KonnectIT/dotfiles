@@ -61,3 +61,8 @@ alias nuke="git clean -df && git reset --hard"
 alias ci="composer install"
 alias cr="composer require"
 alias cu="composer update"
+
+# Other
+
+# When you can't set the brightness anymore
+alias killstrip="killall ControlStrip"
