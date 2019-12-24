@@ -118,3 +118,6 @@ export LANG=en_US.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export PATH="/usr/local/sbin:$PATH"
+#export PATH="/usr/local/opt/node@8/bin:$PATH"

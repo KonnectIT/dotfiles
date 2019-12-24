@@ -17,8 +17,10 @@ alias code="cd $HOME/code"
 # alias lara="sites && cd laravel/"
 
 # Laravel
+alias a="php artisan"
 alias pa="php artisan"
 alias ams="php artisan migrate:fresh --seed"
+alias tinker="php artisan tinker"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
@@ -61,6 +63,7 @@ alias nuke="git clean -df && git reset --hard"
 alias ci="composer install"
 alias cr="composer require"
 alias cu="composer update"
+alias cda="composer dumpautoload"
 
 # Other
 

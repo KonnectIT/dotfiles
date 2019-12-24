@@ -29,10 +29,10 @@ brew 'php@7.3'
 brew 'composer'
 brew 'mysql'
 brew 'nginx'
-brew 'node@8'
-brew 'npm'
+# brew 'node@8' # do it by hand (incompatibility)
+# brew 'npm' # do it by hand (incompatibility)
 brew 'redis'
-brew 'yarn'
+# brew 'yarn' # do it by hand (incompatibility)
 
 # Apps
 # 'brew search --casks slack'
