@@ -121,3 +121,4 @@ export LANG=en_US.UTF-8
 
 export PATH="/usr/local/sbin:$PATH"
 #export PATH="/usr/local/opt/node@8/bin:$PATH"
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"

@@ -21,6 +21,9 @@ alias a="php artisan"
 alias pa="php artisan"
 alias ams="php artisan migrate:fresh --seed"
 alias tinker="php artisan tinker"
+alias envr="envoy run"
+alias envt="envoy tasks"
+alias punc="phpunit --no-coverage"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
@@ -39,11 +42,16 @@ alias vrebuild="vagrant destroy --force && vagrant up"
 
 # Docker
 alias docker-composer="docker-compose"
+alias dmysql="docker exec -i some-mysql mysql -uroot -proot"
 #alias dstop="docker stop $(docker ps -a -q)"
 #alias dpurgecontainers="dstop && docker rm $(docker ps -a -q)"
 #alias dpurgeimages="docker rmi $(docker images -q)"
 #dbuild() { docker build -t=$1 .; }
 #dbash() { docker exec -it $(docker ps -aqf "name=$1") bash; }
+
+# LaraDock
+alias laradock="docker-compose up -d apache2 mysql redis laravel-horizon"
+alias workspace="docker-compose exec --user=laradock workspace bash"
 
 # Git
 alias commit="git add . && git commit -m"

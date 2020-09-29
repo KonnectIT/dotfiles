@@ -33,6 +33,7 @@ brew 'nginx'
 # brew 'npm' # do it by hand (incompatibility)
 brew 'redis'
 # brew 'yarn' # do it by hand (incompatibility)
+brew 'git-lfs'
 
 # Apps
 # 'brew search --casks slack'
