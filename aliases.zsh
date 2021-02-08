@@ -25,6 +25,7 @@ alias tinker="php artisan tinker"
 alias envr="envoy run"
 alias envt="envoy tasks"
 alias punc="phpunit --no-coverage"
+alias sail='bash vendor/bin/sail'
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
